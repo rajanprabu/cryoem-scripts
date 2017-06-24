@@ -14,7 +14,6 @@ import subprocess as subp
 
 
 ## Create a general dictionary of script parameters. Easy to expand later
-author = 'prabu@biochem.mpg.de'
 drift_parameters = {}
 drift_parameters['datadir'] = os.getcwd()
 drift_parameters['user'] = getpass.getuser()
@@ -454,8 +453,6 @@ def power_calculation () :
     return extra_calculation
 
 def plot_and_format_results (defocus1_list, defocus2_list, defocus_angle_list, CCC_list, resolution_list, text_print_list, time, gctf_flag ) :
-    mail_author = 'echo " " | mail -s MAKESUM ' + author 
-    os.system( mail_author )
     print ('\nCTF done\nI am plotting the results')
     mean_defocus1 = round ( sum (defocus1_list) / len (defocus1_list), 1 )
     mean_defocus2 = round ( sum (defocus2_list) / len (defocus2_list), 1 )
