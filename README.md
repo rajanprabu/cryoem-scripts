@@ -1,4 +1,4 @@
-# python/bash scripts for making EM processing easier
+# python/bash scripts for Electron Microscopy 
 
 ## makesum.py
 
