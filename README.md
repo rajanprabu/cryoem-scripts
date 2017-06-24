@@ -1,6 +1,6 @@
-# Few python and bash scripts for making EM processing easier
+# python/bash scripts for making EM processing easier
 
-makesum.py
+# makesum.py
 
 create some nice summary and plots of EM micrographs
 
