@@ -14,7 +14,7 @@ from matplotlib import cm as CM
 import subprocess as subp
 
 ## Create a general dictionary of script parameters. Easy to expand later
-author = 'prabu@biochem.mpg.de'
+author = 'test@test.com'
 quick2d_parameters = {}
 quick2d_parameters['datadir'] = os.getcwd()
 quick2d_parameters['user'] = getpass.getuser()
